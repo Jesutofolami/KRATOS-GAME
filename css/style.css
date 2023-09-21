@@ -213,3 +213,39 @@
     padding: 80px 80px 80px 80px ;
     border-radius: 15px;
 }
+.card-1:hover{
+    background-color: black;
+    border: 5px solid gray;
+    color: white;
+    cursor: pointer;
+}
+.card-2:hover{
+    background-color: black;
+    border: 5px solid gray;
+    color: white;
+    cursor: pointer;
+}
+.card-3:hover{
+    background-color: black;
+    border: 5px solid gray;
+    color: white;
+    cursor: pointer;
+}
+.card-4:hover{
+    background-color: black;
+    border: 5px solid gray;
+    color: white;
+    cursor: pointer;
+}
+.card-5:hover{
+    background-color: black;
+    border: 5px solid gray;
+    color: white;
+    cursor: pointer;
+}
+.card-6:hover{
+    background-color: black;
+    border: 5px solid gray;
+    color: white;
+    cursor: pointer;
+}
