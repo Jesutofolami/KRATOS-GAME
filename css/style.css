@@ -161,7 +161,7 @@
     margin-left: 12.5em;
 }
 .-players{
-    color: rgb(155, 152, 152);;
+    color: rgb(155, 152, 152);
     font-size: 3em;
     font-weight: 700;
     margin-top: 0.2em;
@@ -170,6 +170,46 @@
     justify-content: center;
     justify-items: center;
 }
-.players-container-flex{
-    
+.players-card{
+    display: grid;
+    color: white;
+    grid-template-columns: auto auto auto ;
+    gap: 100px;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 70px;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 1em;
+    font-family: "futura_1tbold", sans-serif;
+}
+.card-1{
+    background-color: red;
+    padding: 80px 80px 80px 80px ;
+    border-radius: 15px;
+}
+.card-2{
+    background-color: rgb(13, 13, 228);
+    padding: 80px 80px 80px 80px ;
+    border-radius: 15px;
+}
+.card-3{
+    background-color: rgb(11, 233, 11);
+    padding: 80px 80px 80px 80px ;
+    border-radius: 15px;
+}
+.card-4{
+    background-color: rgb(250, 144, 13);
+    padding: 80px 80px 80px 80px ;
+    border-radius: 15px;
+}
+.card-5{
+    background-color: rgb(202, 25, 55);
+    padding: 80px 80px 80px 80px ;
+    border-radius: 15px;
+}
+.card-6{
+    background-color: rgb(31, 30, 30);
+    padding: 80px 80px 80px 80px ;
+    border-radius: 15px;
 }
