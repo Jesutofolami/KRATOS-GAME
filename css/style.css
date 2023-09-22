@@ -130,7 +130,7 @@
     font-size: 2.3em;
     font-weight: 600;
     margin-top: 3em;
-    margin-left: 10.5em;
+    margin-left: 10.4em;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -158,14 +158,14 @@
     justify-content: center;
     justify-items: center;
     margin-top: 3em;
-    margin-left: 12.5em;
+    margin-left: 12.9em;
 }
 .-players{
     color: rgb(155, 152, 152);
     font-size: 3em;
     font-weight: 700;
     margin-top: 0.2em;
-    margin-left: 10em;
+    margin-left: 10.2em;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -180,7 +180,7 @@
     font-size: 70px;
     justify-items: center;
     justify-content: center;
-    margin-left: 1em;
+    margin-left: 1.2em;
     font-family: "futura_1tbold", sans-serif;
 }
 .card-1{
@@ -249,3 +249,69 @@
     color: white;
     cursor: pointer;
 }
+.layout{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 5em;
+    margin-left: 13.4em;
+
+}
+.game-layout{
+    color: rgb(155, 152, 152);
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-left: 10.8em;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.game-containerinner{
+    margin-left: 40%;
+    margin-top: 5em;
+}
+.card-container1{
+    border:
+}
+/* .user-card{
+    background-color: black;
+    grid-template-columns: auto auto;
+    margin-left: 45%;
+    margin-top: 3em;
+}
+.u-card1{
+    height: 135px;
+    width: 135px;
+    background-color: gray;
+    padding: 40px 40px 40px 40px;
+    border-radius: 15px;
+}
+.u-card2{
+    height: 135px;
+    width: 135px;
+    background-color: gray;
+    padding: 40px 40px 40px 40px;
+    border-radius: 15px;
+}
+.u-card3{
+    height: 135px;
+    width: 135px;
+    background-color: gray;
+    padding: 40px 40px 40px 40px;
+    border-radius: 15px;
+}
+.u-card4{
+    height: 135px;
+    width: 135px;
+    background-color: gray;
+    padding: 40px 40px 40px 40px;
+    border-radius: 15px;
+}
+.ucborder1{
+    background-color: blue;
+} */
