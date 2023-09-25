@@ -280,15 +280,12 @@
     margin-top: 60px;
 }
 .game-containerinner{
-    margin-top: 5em;
+    display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    display: flex;
-    display: grid;
-    grid-template-columns: auto auto;
-    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
 }
 .card-container1{
     border: 5px solid grey;
@@ -300,11 +297,16 @@
 }
 .img-1{
     background-color: gray;
-    width: 60px;
-    height: 60px;
+    width: 150px;
+    height: 150px;
     padding: 20px;
     margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
+
 /* .user-card{
     background-color: black;
     grid-template-columns: auto auto;
