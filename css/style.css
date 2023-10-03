@@ -20,10 +20,10 @@
     font-size: 3em;
     font-weight: 700;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 1.5%;
     justify-content: center;
-     text-align: center;
-     display: flex;
+    text-align: center;
+    display: flex;
     justify-items: center;
 }
 .btn-SG{
@@ -39,7 +39,7 @@
     align-items: center;
     border: 0;
     padding: 20px 218px 20px 218px;
-    margin-top: 300px;
+    margin-top: 200px;
     cursor: pointer;
     border-radius: 15px;
 }
@@ -89,7 +89,7 @@
     font-weight: 700;
     margin: auto;
     display: flex;
-    margin-top: 2%;
+    margin-top:  1.5%;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -167,12 +167,12 @@
     color: rgb(155, 152, 152);
     font-size: 3em;
     font-weight: 700;
-    margin-top: 20px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-items: center;
+    margin-top: 1.5%;
 }
 .players-card{
     color: white;
@@ -277,7 +277,7 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    margin-top: 60px;
+    margin-top: 1.5%;
 }
 .game-containerinner{
     display: flex;
@@ -285,62 +285,85 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 .card-container1{
-    border: 5px solid grey;
+    border: 3px solid grey;
     padding: 10px;
+    padding-top: 0.005px;
+    border-radius: 10px;
 }
 .card-container2{
-    border: 5px solid grey;
+    border: 3px solid grey;
     padding: 10px;
+    padding-top: 0.005px;
+    border-radius: 10px;
 }
 .img-1{
-    background-color: gray;
-    width: 150px;
-    height: 150px;
-    padding: 20px;
+    background-color: rgb(61, 60, 60);
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    padding: 30px;
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transform: rotate(180deg);
+}
+.img-2{
+    background-color: rgb(61, 60, 60);
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    padding: 30px;
     margin-top: 20px;
     flex-direction: column;
     display: flex;
     align-items: center;
     text-align: center;
 }
+.img-3{
+    background-color: rgb(61, 60, 60);
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    padding: 30px;
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transform:rotate(90deg);
+}
+.img-4{
+    background-color: rgb(61, 60, 60);
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    padding: 30px;
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transform: rotate(90deg);
+}
+.img-1:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.img-2:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.img-3:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.img-4:hover{
+    cursor: pointer;
+    background-color: gray;
+}
 
-/* .user-card{
-    background-color: black;
-    grid-template-columns: auto auto;
-    margin-left: 45%;
-    margin-top: 3em;
-}
-.u-card1{
-    height: 135px;
-    width: 135px;
-    background-color: gray;
-    padding: 40px 40px 40px 40px;
-    border-radius: 15px;
-}
-.u-card2{
-    height: 135px;
-    width: 135px;
-    background-color: gray;
-    padding: 40px 40px 40px 40px;
-    border-radius: 15px;
-}
-.u-card3{
-    height: 135px;
-    width: 135px;
-    background-color: gray;
-    padding: 40px 40px 40px 40px;
-    border-radius: 15px;
-}
-.u-card4{
-    height: 135px;
-    width: 135px;
-    background-color: gray;
-    padding: 40px 40px 40px 40px;
-    border-radius: 15px;
-}
-.ucborder1{
-    background-color: blue;
-} */
